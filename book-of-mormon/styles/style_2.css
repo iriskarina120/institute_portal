@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
+body {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: rgb(238, 227, 227);
+    padding: 1em;    
+  }
+  header {      
+    background-color: #2383dd;    
+    box-shadow: 10px 10px 10px  #999;    
+    border-radius: 7px 7px 7px 7px;
+    padding: 5px; 
+    text-align: center;
+      
+  }
+
+  main {line-height: 2;
+    background-color: white;
+    padding: 2em;
+    text-align: justify;
+  }
+  main ol li{
+    color:#2383dd; 
+  }
+  
+ h1 {
+    font-family: "Original Surfer", georgia, sans-serif;
+    color: white;
+    font-size: 2.5em;    
+    padding-top: 30px;    
+    text-shadow: black 8px 8px 8px     
+  }
+
+  h2{
+    text-align: center;
+  }
+
+.img_lesson {
+    display:grid;
+    grid-template-columns: auto auto;    
+    padding: 1.5em;    
+    align-items: center;
+}
+ 
+img {
+    margin-top: 6px;
+    border-radius: 5px 5px 5px 5px;
+    height: 140px;
+    align-self: center;    
+    grid-column: 1; 
+    grid-row: 1;    
+    box-shadow: 5px 5px 5px  rgb(49, 45, 45);  
+ }
+
+.footer_class {
+    background-color: #2383dd; /*Dark red*/   
+    height: 90px; 
+    box-shadow: 10px 10px 10px  #999; 
+    border-radius: 7px 7px 7px 7px;    
+    text-align: center; 
+    padding: 5px;    
+}
+
+#copyrigth {
+    color: white;     
+ }
+
+.footer_update{
+    color: rgb(221, 224, 22); 
+    font-size: large;
+ } 
+
+ footer p {
+   color:white
+ }
